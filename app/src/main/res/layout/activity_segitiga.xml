@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+
+    <TextView
+            android:layout_marginBottom="10dp"
+            android:text="segitiga"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    <EditText
+            android:id="@+id/edt1"
+            android:hint="alas"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <EditText
+            android:id="@+id/edt2"
+            android:hint="tinggi"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <Button
+            android:text="hitung"
+            android:id="@+id/btnHitung1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:textSize="20sp"
+                android:text="hasil"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content" />
+        <TextView
+                android:textSize="15sp"
+                android:id="@+id/txtHasil1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
